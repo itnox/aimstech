@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	.row.top
+	.col-md-4.jumbotron.left
+		h2.text-center  Aimstech CRM 
+		hr
+		form(method='post', action='/users/login')
+			.form-group
+				input.form-control(type='text', name='username', placeholder='Enter Username', requiredautofocus='')
+			.form-group
+				input.form-control(type='password', name='password', placeholder='Enter Password', requiredautofocus='')
+			button.btn.btn-primary.btn-block(type='submit') Login
+		hr
+		small Powered by Aimstech
+		a(href="#") Forget Password ?

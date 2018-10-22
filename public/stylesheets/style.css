@@ -1,0 +1,16 @@
+a {
+  color: #00B7FF;
+}
+
+.left {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 2;
+	box-shadow: 0 8px 16px -6px black; 
+}
+
+.top {
+	margin-top: 200px; 
+}
